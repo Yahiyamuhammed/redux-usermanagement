@@ -1,0 +1,50 @@
+.updateContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.updateForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.updateForm label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.updateForm input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fileInput {
+    border: none;
+    cursor: pointer;
+}
+
+.updateBtn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.updateBtn:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}

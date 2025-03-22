@@ -1,0 +1,123 @@
+/* General Styling */
+.adminContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.adminTitle {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.adminActions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn, .primaryBtn, .secondaryBtn, .dangerBtn, .editBtn, .deleteBtn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.primaryBtn { background-color: #3498db; color: white; }
+.secondaryBtn { background-color: #f39c12; color: white; }
+.dangerBtn { background-color: #e74c3c; color: white; }
+.editBtn { background-color: #27ae60; color: white; }
+.deleteBtn { background-color: #c0392b; color: white; }
+
+.btn:hover, .primaryBtn:hover, .secondaryBtn:hover, .dangerBtn:hover, .editBtn:hover, .deleteBtn:hover {
+    opacity: 0.8;
+}
+
+/* Search Form */
+.searchForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchInput {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.searchBtn {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* User Cards Grid */
+.userGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.userCard {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Handling */
+.imageContainer {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+}
+
+.profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Placeholder for Missing Image */
+.placeholderImage {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #555;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+/* No Users Found */
+.noUsers {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Login Prompt */
+.loginPrompt {
+    text-align: center;
+    margin-top: 50px;
+}

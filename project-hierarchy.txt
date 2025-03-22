@@ -1,0 +1,56 @@
+proejct-userManagement
+├─ backend
+│  ├─ config
+│  │  └─ db.js
+│  ├─ controler
+│  │  ├─ adminController.js
+│  │  └─ userControler.js
+│  ├─ index.js
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ public
+│  │  └─ uploads
+│  │     └─ 1741887519449.png
+│  └─ routes
+│     ├─ adminRoutes.js
+│     └─ userRoutes.js
+├─ forntent
+│  └─ fontent
+│     ├─ .gitignore
+│     ├─ eslint.config.js
+│     ├─ index.html
+│     ├─ package-lock.json
+│     ├─ package.json
+│     ├─ public
+│     │  └─ vite.svg
+│     ├─ README.md
+│     ├─ src
+│     │  ├─ api
+│     │  │  ├─ axiosAdminInstance.js
+│     │  │  └─ axiosInstance.js
+│     │  ├─ App.css
+│     │  ├─ App.jsx
+│     │  ├─ assets
+│     │  ├─ index.css
+│     │  ├─ lib
+│     │  │  ├─ adminRoutes.jsx
+│     │  │  └─ userRoutets.jsx
+│     │  ├─ main.jsx
+│     │  ├─ pages
+│     │  │  ├─ adminPages
+│     │  │  │  ├─ adminCreateUser.jsx
+│     │  │  │  ├─ adminHome.jsx
+│     │  │  │  ├─ adminLogin.jsx
+│     │  │  │  └─ updateAdminUser.jsx
+│     │  │  └─ userPages
+│     │  │     ├─ home.jsx
+│     │  │     ├─ login.jsx
+│     │  │     ├─ signUp.jsx
+│     │  │     └─ updateProfile.jsx
+│     │  ├─ slices
+│     │  │  ├─ adminSlice.js
+│     │  │  └─ userSlice.js
+│     │  └─ store
+│     │     └─ store.js
+│     └─ vite.config.js
+└─ project-hierarchy.txt

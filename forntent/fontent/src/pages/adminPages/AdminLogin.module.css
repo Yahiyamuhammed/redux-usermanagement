@@ -1,0 +1,57 @@
+/* Center the form and add spacing */
+.adminLoginContainer {
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 120px; /* Moves the form lower */
+}
+
+/* Heading */
+.adminLoginContainer h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Form Styling */
+.adminLoginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Fields */
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Login Button */
+.loginBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.loginBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Message */
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e74c3c;
+}

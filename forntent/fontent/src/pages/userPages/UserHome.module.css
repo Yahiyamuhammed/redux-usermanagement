@@ -1,0 +1,65 @@
+/* Center the home container */
+.userHomeContainer {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 120px; /* Moves the content lower */
+}
+
+/* Heading */
+.userHomeContainer h1 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Profile Image */
+.profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.userHomeBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 5px;
+}
+
+.userHomeBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Logout Button */
+.logoutBtn {
+    background-color: #e74c3c;
+}
+
+.logoutBtn:hover {
+    background-color: #c0392b;
+}
+
+/* Login & Signup Links */
+.authLinks a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.authLinks a:hover {
+    text-decoration: underline;
+}

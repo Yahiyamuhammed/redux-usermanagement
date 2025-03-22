@@ -1,0 +1,76 @@
+/* Center the container with more space at the top */
+.createUserContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 100px; /* Pushes the form lower */
+}
+
+/* Title */
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+.createUserForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+.submitBtn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.submitBtn:hover {
+    background-color: #218c53;
+}
+
+/* Message */
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e74c3c;
+}
+
+/* Login Prompt */
+.loginPrompt {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.loginBtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    opacity: 0.8;
+}

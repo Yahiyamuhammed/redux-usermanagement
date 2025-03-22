@@ -1,0 +1,51 @@
+/* Center the form and add spacing */
+.updateUserContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 120px; /* Moves the form lower */
+}
+
+/* Form Styling */
+.updateUserForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Fields */
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.submitBtn {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.submitBtn:hover {
+    background-color: #d68910;
+}
+
+/* Message */
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #e74c3c;
+}
